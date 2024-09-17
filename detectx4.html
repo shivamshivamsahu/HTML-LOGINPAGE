@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <style>
+       header{
+            background-color: rgb(35, 85, 85);
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 40px;
+            font-size: 40px;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        .doc-1{
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 32px;
+            margin-top: 5px;
+            padding:10px;
+        }                                     
+        .plus{
+            font-size: 30px;
+            color: lightskyblue;
+        }
+        .appio{
+            margin-left: 200px;
+            color: darkblue;
+        }
+    .bi-person{
+        font-size: 20px;
+    }
+    .bi-person-badge{
+        font-size: 40px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 15px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <span>Detect.X</span>
+        <span class="bi bi-list-check"></span>
+    </header>
+    <section>
+        <div class="ms-4">
+            <div class="doc-1">
+                <span class="bi bi-person">Dr. Vinod Raina</span><span class="appio">book appointment</span>  <span class="plus">+</span><br>
+                A renowned oncologist with expertise in medical oncology.
+            </div>
+            <div class="doc-1">
+                <span class="bi bi-person">Dr. Ashok Vaid</span><span class="appio">book appointment</span> <span class="plus">+</span><br>
+                A well-known oncologist with expertise in medical oncology and hematology.
+            </div>
+            <div class="doc-1">
+                <span class="bi bi-person">Dr. Niranjan Naik</span><span class="appio">book appointment</span>  <span class="plus">+</span><br>
+                A prominent oncologist with expertise in surgical oncology.
+            </div>
+            <div class="doc-1">
+                <span class="bi bi-person">Dr. Suresh H. Advani</span><span class="appio">book appointment</span><span class="plus">+</span><br>
+                A renowned oncologist with expertise in medical oncology and hematology.
+            </div>
+            <div class="doc-1">
+                <span class="bi bi-person">Dr. Rajesh Mistry </span><span class="appio">book appointment</span><span class="plus">+</span><br>
+                A well-known oncologist with expertise in surgical oncology.
+            </div>
+        </div>
+        <div>
+            <div class="ms-5 mt-3 p-4">
+                <img src="../public/images/spaitent.avif">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
